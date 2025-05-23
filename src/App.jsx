@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       <div className="App">
-        <Article />
+        <Article /> {/* Komponen bisa dipanggil disini */}
       </div>
     </>
   );
