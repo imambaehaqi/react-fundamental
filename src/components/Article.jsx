@@ -1,27 +1,10 @@
-{
-  /* Pembuatan Komponen */
-}
-
-function Article() {
-  const name = "Hello, everybody";
-  const titles = ["React.js", "Next.js", "Node.js"];
-
+function Article(props) {
   return (
     <>
-      <div>{name}</div>
+      <div>{props.name}</div>
       <div>
-        {/* Return untuk pemanggilan satu */}
-        {titles.map((title) => {
-          <div>{title}</div>;
-        })}
-        {/* Return untuk pemanggilan banyak */}
-        {titles.map((title) => {
-          return (
-            <>
-              <div>{title}</div>
-              <div>{title}</div>
-            </>
-          );
+        {props.titles.map((title) => {
+          return <div>{title}</div>;
         })}
       </div>
     </>
