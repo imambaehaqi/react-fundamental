@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Belajar Java 3 Minggu",
+    "tags": ["java", "backend"],
+    "date": "2025-01-03"
+  },
+  {
+    "title": "PostgreSQL 1 Minggu lebih cepat",
+    "tags": ["sql", "rdbms"],
+    "date": "2025-01-03"
+  },
+  {
+    "title": "Springboot dijamin bisa",
+    "tags": ["java", "spring"],
+    "date": "2025-01-04"
+  },
+  {
+    "title": "React Router sampai bisa",
+    "tags": ["javascript", "frontend"],
+    "date": "2025-01-05"
+  }
+]
